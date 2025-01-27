@@ -6,7 +6,7 @@ import service.ProjectService
 
 @RestController
 @RequestMapping("/projects")
-class Controller(
+class ProjectController(
         private val projectService: ProjectService,
 ) {
     @GetMapping

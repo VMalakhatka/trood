@@ -13,3 +13,7 @@ spring:
         show_sql: true
         temp:
           use_jdbc_metadata_defaults: false
+logging:
+  level:
+      org.springframework.web: DEBUG  # Включить отладочное логирование для Spring Web
+      org.springframework.boot.web.servlet: DEBUG  # Логирование работы сервлетов

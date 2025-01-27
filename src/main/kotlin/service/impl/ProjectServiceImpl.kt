@@ -1,6 +1,6 @@
 package service.impl
 
-import Entity.ProjectEntity
+import entity.ProjectEntity
 import dto.ProjectDto
 import repository.ProjectsRepository
 import service.ProjectService
